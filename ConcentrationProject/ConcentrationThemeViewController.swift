@@ -26,6 +26,7 @@ class ConcentrationThemeViewController: UIViewController, UISplitViewControllerD
         splitViewController?.delegate = self
     }
     
+    // This function prevents the iPhone version to load into the game first without choosing a theme
     func splitViewController(
         _ splitViewController: UISplitViewController,
         collapseSecondary secondaryViewController: UIViewController,
