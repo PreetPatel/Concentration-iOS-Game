@@ -37,7 +37,7 @@ class ConcentrationThemeViewController: UIViewController, UISplitViewControllerD
                 return true
             }
         }
-        return false
+        return false  
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
